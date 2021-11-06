@@ -1,0 +1,337 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+
+body{
+   
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 30px;
+    -webkit-font-smoothing: antialiased; 
+}
+
+.actif{
+    color: rgb(105, 255, 230);
+}
+    
+#logo{
+    display: flex;
+    width: 400px
+;
+
+}
+.docplanner-logo{
+  
+    zoom: 1;
+    max-width: 500px;
+    padding: 0 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    color: #3d83df;
+    outline: 0;
+    transition: all .2s ease 0s;
+}
+.docplanner-header{
+    position: fixed;
+    margin: 0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background: rgb(255, 253, 253);
+    transition: box-shadow .25s ease 0s;
+    }
+.header-menu{
+    position: relative;
+    float: right;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.introduction-title{
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+.introduction-text{
+    display: flex;
+}
+.services{
+    display: flex ;
+    border-radius: 8px;
+    height: 400px;
+    
+}
+.for-patient{
+    background-color:#00ccb1 ;
+    border-radius: 10px;
+    
+}
+.For-doctor{
+    background-color: #3d83df;
+    border-radius: 10px;
+    }
+
+.For-clinis{
+    background-color:#1b2734 ;
+    border-radius: 10px;
+}
+.service-card-title{
+color: white;
+}
+.titro{
+   color: white; 
+}
+.choose{
+    background-color:white;
+    border-radius: 10px;
+}
+
+li{
+    display: flex;
+    
+    width: 190px;
+}
+    
+.brandsection{
+    display: flex;
+    zoom: 1;
+    max-width: 1550px;
+    padding: 0 20px ;
+    margin: 0 auto;
+    position: relative;
+   
+}
+
+.brands__logos{
+   
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: flex-start
+}
+.weare{
+    color:#00b39b
+    ;
+
+}
+.lowpart{
+ 
+    background: #e5faf8;
+    height: 850px;
+    
+       }  
+       .all{
+           display: flex;
+           justify-content: space-around;
+           
+          
+       }
+      
+       
+       .words{
+           
+       
+           margin-left: 10px;
+           padding: 10px;
+           width: 500px;
+           height: 100px;
+           
+
+       }
+       .boxes{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-between;
+        
+           width: 600px;
+           height: 800px;
+           padding: 15px;
+
+    padding-top: 15px;
+
+    padding-right: 15px;
+
+    padding-bottom: 15px;
+
+    padding-left: 15px;
+
+
+       }
+
+       
+      
+
+       .one{
+        background: #fff;
+    
+        border-radius: 15px;
+    height: 281px;
+        width: 200px;
+        
+           
+    
+       }
+       .two{
+        background: #fff;
+          
+           border-radius: 15px;
+           height: 281px;
+           width: 200px;
+           
+           
+
+       }
+           .three{
+            background: #fff;
+               ;
+               border-radius: 15px;
+               width: 200px;
+               height: 281px
+               ;
+           }
+           .four{
+            background: #fff;
+           
+            border-radius: 17px;
+            width: 207px;
+            height: 281px;
+        }
+           
+.h3{
+    
+    display: block;
+    font-size: 15px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 30px;
+    margin-inline-end: 10px;
+    text-align: center;
+    color: #00b39b
+
+}
+.hh{
+    margin-left: 60px
+    ;
+}
+.h{
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+.baklouti{
+    
+    max-width: 460px;
+        margin: 0 auto ;
+        font-size: 0.875em;
+        text-align: center;
+}
+h1{
+    font-size: 70px;
+    color: #00b39b;
+    font-size: 2.1428571429em;
+}
+.carrot{  
+    
+    height: 1350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.pays{
+    width: 380px;
+    
+
+    
+}
+.officeimage{
+    display: block;
+    margin: 0 auto;
+}
+.offlow{
+    
+    
+    font-size: 1.125em;
+    font-weight: 400px;
+    line-height: 2em;
+    width: 250px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: 55px; 
+    border-radius: 10px;
+   
+}
+
+.off{
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.03);
+    border-radius: 6px;
+    overflow: hidden;
+    z-index: 2;
+    position: relative;
+    display: block;
+    color: #727272;
+    box-shadow: 0 5px 10px 0 transparent;
+    transition: box-shadow .2s ease 0s;
+}
+
+
+
+   .btn{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    color: lavenderblush;
+    font-weight: 700;
+    letter-spacing: .08em;
+    font-size: 12px;
+    text-align: center
+    
+   }
+   .pp{
+      margin: 200px auto;
+      padding-left: 400px;
+
+    
+
+   }
+   .btn1{
+
+    margin-left: 200px;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    color: lavenderblush;
+    font-weight: 700;
+    letter-spacing: .08em;
+    font-size: 12px;
+    
+   }
+   .lower{
+    border-top: 1px solid rgb(216, 213, 213);
+    
+       
+   }
+   .tatati{
+    text-align: center;
+
+   }
+   
